@@ -14,6 +14,6 @@ The udf.com domain lives only within the blueprint
 You can use your regular RDP client to RDP to the Kali box to test it, login to kali with kali/kali, then run firefox and browse to the front half of your proxy (gateway)
 
 Here is the Lab diagram:
-
-![alt text](https://github.com/bwolmarans/nms-udf/images/lab-diagram.png)
-<img src="https://github.com/bwolmarans/nms-udf/images/lab-diagram.png" width="350" title="hover text">
+            
+![alt text](https://github.com/bwolmarans/nms-udf/blob/main/images/lab-diagram.png?raw=true)
+<img src="https://github.com/bwolmarans/nms-udf/blob/main/images/lab-diagram.png" width="350" title="hover text">
