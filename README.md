@@ -15,5 +15,4 @@ You can use your regular RDP client to RDP to the Kali box to test it, login to 
 
 Here is the Lab diagram:
             
-![alt text](https://github.com/bwolmarans/nms-udf/blob/main/images/lab-diagram.png?raw=true)
-<img src="https://github.com/bwolmarans/nms-udf/blob/main/images/lab-diagram.png" width="350" title="hover text">
+<img src="https://github.com/bwolmarans/nms-udf/blob/main/images/lab-diagram.png" width="600" title="hover text">
