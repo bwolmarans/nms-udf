@@ -11,7 +11,7 @@ A note on credential complexity: In anticipation of reports of credential trivia
 5. KALI - this is simply a jumpbox. creds are kali/kali.  Access if via RDP, and then do all your work from the jumpbox. This box is more fun and easier than a Windows Jumpbox. Don't worry it has Firefox on it.  Pro Tip: When you download the RDP file, r-click and edit the file and set the resolution to 1920x1080, color depth to 24bit, username to kali, and enable saving username. 
 
 ## DNS
-The domain used for DNS in this lab is bigtechdojo.com, but that only exists within this lab, with a private DNS server on 10.1.1.7, and this is already configured on all the boxes. This is a legit domain in the real world which the lab creators own pure to avoid any conflicts. 
+The domain used for DNS in this lab is bigtechdojo.com, but that only exists within this lab, with a private DNS server on 10.1.1.7, and this is already configured on all the boxes. This is a legit domain in the real world which the lab creators own purely to avoid any potential domain conflicts. 
 
 ## Lab diagram:
 You can see the domain names for each box here:
