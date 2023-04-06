@@ -5,6 +5,7 @@
 2. WEST-GW - this is one of your NGINX+ and NGINX-AGENT instances
 3. EAST-GW - this is another
 4. WWW - this is a box of web servers, with one listening on port 80
+5. KALI - this is simply a jumpbox which is more fun and easier than a Windows Jumpbox. Don't worry it has Firefox on it.  Pro Tip: When you download the RDP file, r-click and edit the file and set the resolution to 1920x1080, color depth to 24bit, username to kali, and enable saving username. 
 
 ## DNS
 The domain used for DNS in this lab is udf.com, but that only exists within this lab.
