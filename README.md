@@ -1,7 +1,7 @@
 # Welcome to the ADM UDF Lab.
 Do everything from the jumpbox.
 
-A note on credential complexity: In anticipation of reports of credential triviality, it's worth mentioning up front that you'll notice some very simple passwords in this lab.  This is because complex passwords do not keep us safe, and they are not going to keep you or anyone else out of anything if you already got into F5's SSO, into UDF, and into the lab, so we're just going to save time for everyone and skip over added frustration and a false senses of security.
+A note on credential complexity: In anticipation of reports of credential triviality, it's worth mentioning up front that you'll notice some very simple passwords in this lab.  This is because complex passwords do not keep us safe, and they are not going to keep you or anyone else out of anything if you already breached big red's SSO and firewalls and got into the lab, so we're just going to save time for everyone and skip over added frustration and false senses of security.
 
 ## Description of the VMs in this Lab
 1. NMS - this is your NMS and ADM management platform. creds are admin/admin
