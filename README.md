@@ -16,7 +16,7 @@ The domain used for DNS in this lab is bigtechdojo.com, but that only exists wit
 ## Lab diagram:
 You can see the domain names for each box here:
 
-<img src="https://github.com/bwolmarans/nms-udf/blob/main/images/lab-diagram.png" width="600" title="hover text">
+<img src="https://github.com/bwolmarans/nms-udf/blob/main/images/lab.png" width="600" title="hover text">
 
 ## Your Challenge
 In this scenario, PlatOps team has done all the hard work of installing everything for you, now you just need to do some clickops.
