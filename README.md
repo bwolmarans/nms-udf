@@ -16,7 +16,7 @@ The domain used for DNS in this lab is bigtechdojo.com, but that only exists wit
 ## Lab diagram:
 You can see the domain names for each box here:
 
-<img src="https://github.com/bwolmarans/nms-udf/blob/main/images/lab.png" width="600" title="hover text">
+<img src="https://github.com/bwolmarans/nms-udf/blob/main/images/lab.png" width="800" title="hover text">
 
 ## Your Challenge
 In this scenario, PlatOps team has done all the hard work of installing everything for you, now you just need to do some clickops.
@@ -27,7 +27,5 @@ The application FQDN is http://www.bigtechdojo.com (don't click on this, but if 
 
 ### Your Task
 Use ADM to deploy this application on the west gateway. That's it. A one sentence task, you figure it out. You'll know you have succeeded when you can fire up firefox in your Kali jumpbox and browse to the front half of the proxy, and see the application web site being proxied all the way through.
-
-You can use your regular RDP client to RDP to the Kali box to test it, login to kali with kali/kali, then run firefox and browse to the front half of your proxy (gateway)
 
 
