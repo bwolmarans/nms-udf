@@ -25,6 +25,7 @@ There is a Coffee application which lives on the www box.
 
 The application FQDN is http://www.bigtechdojo.com (don't click on this, but if you do, I've put guardrails in place)
 It is also available, with proper SSL certs, on https://www.bigtechdojo.com.
+There are also 4 instances of juiceshop running on 3000,3001,3002,and 3003 (cleartext) so for bonus points, get those working as well.
 
 ### Your Task
 Use ADM to deploy this application using end-to-end SSL encryption on the west gateway. That's it. A one sentence task, you figure it out. You'll know you have succeeded when you can fire up firefox in your Kali jumpbox and browse to the front half of the proxy, and see the application web site being proxied all the way through.
