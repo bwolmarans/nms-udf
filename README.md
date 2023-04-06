@@ -28,4 +28,6 @@ The application FQDN is http://www.bigtechdojo.com (don't click on this, but if 
 ### Your Task
 Use ADM to deploy this application on the west gateway. That's it. A one sentence task, you figure it out. You'll know you have succeeded when you can fire up firefox in your Kali jumpbox and browse to the front half of the proxy, and see the application web site being proxied all the way through.
 
+### Woops
+You might see duplicate gateways, if so, you must delete the instances by stopping the nginx-agent process on the gateway, then deleting it in the NMS GUI, then running the install.sh script again.  You're on your own with this one!
 
