@@ -27,8 +27,6 @@ The application FQDN is http://www.bigtechdojo.com
 
 Use ADM to deploy this application on the west gateway.
 
-The udf.com domain lives only within the blueprint
-
 You can use your regular RDP client to RDP to the Kali box to test it, login to kali with kali/kali, then run firefox and browse to the front half of your proxy (gateway)
 
 
