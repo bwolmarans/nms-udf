@@ -28,7 +28,7 @@ It is also available, with proper SSL certs, on https://www.bigtechdojo.com.
 There are also 4 instances of juiceshop running on 3000,3001,3002,and 3003 (cleartext) so for bonus points, get those working as well.
 
 ### Your Task
-Use ADM to deploy this application using end-to-end SSL encryption on the west gateway. That's it. A one sentence task, you figure it out. You'll know you have succeeded when you can fire up firefox in your Kali jumpbox and browse to the front half of the proxy, and see the application web site being proxied all the way through.
+Use ADM to deploy this application using end-to-end SSL encryption on the west gateway. That's it. A one sentence task, you figure it out. You'll know you have succeeded when you can fire up firefox in your Kali jumpbox and browse to the front half of the proxy, and see the application web site being proxied all the way through. Without any Cert warnings, the SSL has to work without any warnings in the browser.
 
 You can find the certs and keys that you will need for the West and East Gateways in the Kali user home directory on the jumpbox, all in one file named certs.txt, so open a terminal to see those, and with some judicious copy and pasting you can add them via the ADM UI. These are real LE certs. Try to experiment to see if you need the fullchain, cert, and key or just the cert and key.
 
