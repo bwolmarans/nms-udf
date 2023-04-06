@@ -24,9 +24,12 @@ In this scenario, PlatOps team has done all the hard work of installing everythi
 There is a Coffee application which lives on the www box.  
 
 The application FQDN is http://www.bigtechdojo.com (don't click on this, but if you do, I've put guardrails in place)
+It is also available, with proper SSL certs, on https://www.bigtechdojo.com.
 
 ### Your Task
-Use ADM to deploy this application on the west gateway. That's it. A one sentence task, you figure it out. You'll know you have succeeded when you can fire up firefox in your Kali jumpbox and browse to the front half of the proxy, and see the application web site being proxied all the way through.
+Use ADM to deploy this application using end-to-end SSL encryption on the west gateway. That's it. A one sentence task, you figure it out. You'll know you have succeeded when you can fire up firefox in your Kali jumpbox and browse to the front half of the proxy, and see the application web site being proxied all the way through.
+
+You can find the certs and keys that you will need for the West and East Gateways at https://www.bigtechdojo.com/certs
 
 ### Woops
 You might see duplicate gateways, if so, you must delete the instances by stopping the nginx-agent process on the gateway, then deleting it in the NMS GUI, then running the install.sh script again.  You're on your own with this one!
