@@ -23,7 +23,7 @@ In this scenario, PlatOps team has done all the hard work of installing everythi
 
 There is a Coffee application which lives on the www box.  
 
-The application FQDN is http://www.udf.com
+The application FQDN is http://www.bigtechdojo.com
 
 Use ADM to deploy this application on the west gateway.
 
