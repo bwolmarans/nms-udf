@@ -26,7 +26,7 @@ There is a Coffee application which lives on the www box.
 The application FQDN is http://www.bigtechdojo.com (don't click on this, but if you do, I've put guardrails in place)
 
 ### Your Task
-Use ADM to deploy this application on the west gateway. That's it. A one sentence task, you figure it out.
+Use ADM to deploy this application on the west gateway. That's it. A one sentence task, you figure it out. You'll know you have succeeded when you can fire up firefox in your Kali jumpbox and browse to the front half of the proxy, and see the application web site being proxied all the way through.
 
 You can use your regular RDP client to RDP to the Kali box to test it, login to kali with kali/kali, then run firefox and browse to the front half of your proxy (gateway)
 
