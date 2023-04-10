@@ -2,11 +2,11 @@
 Do everything from the jumpbox.
 
 ## Description of the VMs in this Lab
-1. NMS - this is your NMS and ADM management platform. creds are admin/NIM123!@#
+1. NMS - this is your NMS and ADM management platform. creds are shown in the UDF deployment->NMS component->details
 2. WEST-GW - this is one of your NGINX+ and NGINX-AGENT instances
 3. EAST-GW - this is another
 4. WWW - this is a box of web servers, with one listening on port 80
-5. KALI - this is simply a jumpbox. creds are kali/KALI123!@#.  Access if via RDP, and then do all your work from the jumpbox. This box is more fun and easier than a Windows Jumpbox. Don't worry it has Firefox on it.  Pro Tip: When you download the RDP file, r-click and edit the file and set the resolution to 1920x1080, color depth to 24bit, username to kali, and enable saving username. Use Ctrl-Shift-V to paste. 
+5. KALI - this is simply a jumpbox. creds are creds are shown in the UDF deployment->Kali component->details.  Access if via RDP, and then do all your work from the jumpbox. This box is faster, smoother, more fun and easier than a Windows Jumpbox. Don't worry it has Firefox on it.  Pro Tip: When you download the RDP file, r-click and edit the file and set the resolution to 1920x1080, color depth to 24bit, username to kali, and enable saving username. Use Ctrl-Shift-V to paste. 
 
 ## DNS - READ THIS PART
 The domain used for DNS in this lab is bigtechdojo.com, but that only exists within this lab, with a private (dynamic) DNS server that runs on one of the machines, and DNS resolution is already configured on all the boxes. This is a legit domain in the real world which the lab creators own purely to avoid any potential domain conflicts. 
