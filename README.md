@@ -1,5 +1,6 @@
 # Welcome to the ADM UDF Lab.
 Do everything from the jumpbox.
+Documentation is here: https://adm-release-4-0-0--nms-docs-private.netlify.app/adm/
 
 ## Description of the VMs in this Lab
 1. NMS - this is your NMS and ADM management platform. creds are admin/NIM123!@#
